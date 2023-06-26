@@ -2,6 +2,7 @@ import "./App.css";
 import ChangeState from "./Components/ChangeState";
 import ClassComp from "./Components/ClassComp";
 import ComponentdidMount from "./Components/ComponentdidMount";
+import ComponentdidUpdate from "./Components/ComponentdidUpdate";
 import Exercise from "./Components/Exercise";
 import Header from "./Components/Header";
 import OldStateEx from "./Components/OldStateEx";
@@ -19,6 +20,7 @@ function App() {
       <OldStateMethod />
       <OldStateEx />
       <ComponentdidMount />
+      <ComponentdidUpdate />
     </>
   );
 }
